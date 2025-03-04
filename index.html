@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Process Monitoring Dashboard</h1>
+        <input type="text" id="search" placeholder="Search Process...">
+        <button id="refresh-btn">Refresh</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Process Name</th>
+                    <th>PID</th>
+                    <th>Memory Usage</th>
+                </tr>
+            </thead>
+            <tbody id="process-list">
+                <!-- Process details will be added here dynamically -->
+            </tbody>
+        </table>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
